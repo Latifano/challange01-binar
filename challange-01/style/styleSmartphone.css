@@ -1,0 +1,291 @@
+/* Smartphone View */
+@media only screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
+  /* Awal Navbar */
+  .logo {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    margin-left: 16px;
+    margin-top: 24px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0px;
+    top: 18px;
+  }
+
+  .hero {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    left: 0px;
+    top: 0px;
+    background: #f1f3ff;
+  }
+  /* Akhir Navbar */
+
+  /* Awal Intro & button  */
+  .intro h1 {
+    width: 328px;
+    height: 216px;
+
+    margin-top: 90px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .intro h6 {
+    width: 328px;
+    height: 60px;
+
+    margin-left: 16px;
+    margin-right: 16px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .intro button {
+    box-sizing: border-box;
+    border-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 140px;
+    height: 36px;
+    margin-left: 16px;
+    top: 398px;
+
+    background: #5cb85f;
+    border-radius: 2px;
+  }
+
+  .intro p {
+    width: 116px;
+    height: 20px;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    color: #ffffff;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  /* Akhir Intro & button  */
+
+  /* Awal Mobil */
+  .mobil {
+    position: absolute;
+    width: 344.22px;
+    height: 199px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 16px;
+    right: 16px;
+    top: 458px;
+  }
+  /* Akhir Mobil */
+
+  /* Awal Section Our Service*/
+
+  .our-service {
+    position: absolute;
+    height: 194.97px;
+    top: 717px;
+  }
+
+  .container-our {
+    position: absolute;
+    width: 100%;
+    height: 199px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 16px;
+    right: 16px;
+    top: 458px;
+  }
+
+  .head-our h1 {
+    width: 500px;
+    height: 72px;
+
+    margin-top: 15px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 36px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .head-our h6 {
+    width: 500px;
+    height: 100px;
+
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .list-our {
+    width: 500px;
+  }
+
+  .list-our img {
+    margin-right: 20px;
+  }
+
+  .list-our p {
+    height: 20px;
+
+    margin-top: 30px;
+    margin-left: 56px;
+
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 20px;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  /* Awal Section Our Service*/
+
+  /* Awal Section Why Us? */
+  .why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 328px;
+    height: 792px;
+    left: 16px;
+    top: 1713px;
+  }
+
+  .container-item-whyus1,
+  .container-item-whyus2,
+  .container-item-whyus3,
+  .container-item-whyus4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+
+    width: 328px;
+    height: 176px;
+
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .container-item-whyus1 h6,
+  .container-item-whyus2 h6,
+  .container-item-whyus3 h6,
+  .container-item-whyus4 h6 {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .container-item-whyus1 p,
+  .container-item-whyus2 p,
+  .container-item-whyus3 p,
+  .container-item-whyus4 p {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  /* Akhir Section Why Us? */
+}
